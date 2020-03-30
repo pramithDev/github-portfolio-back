@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
 const creds = require('./config');
+const serverless = require('serverless-http');
 
 var transport = {
     host: 'smtp.hostinger.com', // Don’t forget to replace with the SMTP host of your provider
@@ -73,3 +74,4 @@ router.post('/', function(req, res, next) {
 })
 
 module.exports = router;
+module.exports.handler = serverless(router);

@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 let portfolios = require("../db/dbPortfolios");
+const serverless = require('serverless-http');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -33,3 +34,4 @@ router.get("/:id", async (req, res) => {
   });
 
 module.exports = router;
+module.exports.handler = serverless(router);

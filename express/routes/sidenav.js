@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 let sidenav = require("../db/dbSidenav");
+const serverless = require('serverless-http');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -17,3 +18,4 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+module.exports.handler = serverless(router);
