@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build express",
-    "start": "nodemon server-local.js"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "repository": {
     "type": "git",
@@ -19,10 +19,8 @@
   },
   "homepage": "https://github.com/Pramith-dev/github-portfolio-back#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "netlify-lambda": "^1.6.3",
-    "nodemailer": "^6.4.6",
     "serverless-http": "^2.3.2"
   }
 }

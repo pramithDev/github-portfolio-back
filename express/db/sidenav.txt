@@ -1,7 +1,0 @@
- {
-        id:"1",
-        text: "About",
-        image: "about.png",
-        hover_image: "hover_about.png",
-        path: "/"
-    },
