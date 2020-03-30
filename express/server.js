@@ -15,7 +15,6 @@ var sendRouter = require('./routes/send');
 app.use(bodyParser.json());  // path must route to lambda
 app.use(express.static(path.join(__dirname, '../public')));
 
-
 // ROUTES
 app.use('/.netlify/functions/', indexRouter);
 app.use('/.netlify/functions/sidenav', sidenavRouter);
