@@ -20,12 +20,13 @@ app.use(bodyParser.json());
 app.use('/.netlify/functions/server', router);  // path must route to lambda
 app.use(express.static(path.join(__dirname, '../public')));
 
+
 // ROUTES
 app.use('/', indexRouter);
-app.use('/sidenav', sidenavRouter);
-app.use('/portfolios', portfoliosRouter);
-app.use('/resume', resumeRouter);
-app.use('/send', sendRouter);
+app.use('/.netlify/functions/sidenav', sidenavRouter);
+app.use('/.netlify/functions/portfolios', portfoliosRouter);
+app.use('/.netlify/functions/resume', resumeRouter);
+app.use('/.netlify/functions/send', sendRouter);
 
 module.exports = app;
 module.exports.handler = serverless(app);
