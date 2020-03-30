@@ -1,7 +1,7 @@
 const express = require("express");
 const serverless = require("serverless-http");
 const bodyParser = require('body-parser');
-
+const cors = require("cors");
 const app = express();
 const router = express.Router();
 let portfolios = require("../db/dbPortfolios");
@@ -36,6 +36,7 @@ router.get("/:id", async (req, res) => {
     }
 });
 
+app.use(cors());
 app.use('/.netlify/functions/portfolios', router);
 
 module.exports = app;

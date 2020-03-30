@@ -1,6 +1,6 @@
 const express = require("express");
 const serverless = require("serverless-http");
-
+const cors = require("cors");
 const app = express();
 const router = express.Router();
 let resume = require("../db/dbResume");
@@ -20,6 +20,7 @@ router.get('/', function(req, res, next) {
       }
 });
 
+app.use(cors());
 app.use('/.netlify/functions/resume', router);
 
 module.exports = app;

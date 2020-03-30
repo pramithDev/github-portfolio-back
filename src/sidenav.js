@@ -1,6 +1,6 @@
 const express = require("express");
 const serverless = require("serverless-http");
-
+const cors = require("cors");
 const app = express();
 const router = express.Router();
 let sidenav = require("../db/dbSidenav");
@@ -19,6 +19,7 @@ router.get('/', function(req, res, next) {
     }
 });
 
+app.use(cors());
 app.use('/.netlify/functions/sidenav', router);
 
 module.exports = app;
