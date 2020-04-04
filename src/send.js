@@ -6,7 +6,7 @@ const cors = require("cors");
 const app = express();
 const router = express.Router();
 const bodyParser = require("body-parser");
-const { USER_VALUE, PASS_VALUE } = process.env
+// const { USER_VALUE, PASS_VALUE } = process.env
 
 var transport = {
     host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
