@@ -74,7 +74,7 @@ router.post('/', function(req, res, next) {
                 }
             });
         }
-        transporter.close();
+        // transporter.close();
     })
 })
 
