@@ -1,19 +1,20 @@
 const express = require("express");
 const serverless = require("serverless-http");
-const creds = require('./config');
+// const creds = require('./config');
 var nodemailer = require('nodemailer');
 const cors = require("cors");
 const app = express();
 const router = express.Router();
 const bodyParser = require("body-parser");
+const { USER_VALUE, PASS_VALUE } = process.env
 
 var transport = {
     host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
     port: 587,
     requireTLS: true,
     auth: {
-    user: creds.USER,
-    pass: creds.PASS
+    user: USER_VALUE,
+    pass: PASS_VALUE
   }
 }
 
