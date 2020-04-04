@@ -1,6 +1,6 @@
 const express = require("express");
 const serverless = require("serverless-http");
-// const creds = require('./config');
+const creds = require('./config');
 var nodemailer = require('nodemailer');
 const cors = require("cors");
 const app = express();
@@ -13,8 +13,8 @@ var transport = {
     port: 587,
     requireTLS: true,
     auth: {
-    user: 'pcmax1989@gmail.com', 
-    pass: 's0712007075p'
+    user: creds.USER, 
+    pass: creds.PASS
   }
 }
 
