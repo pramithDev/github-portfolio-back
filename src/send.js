@@ -13,8 +13,8 @@ var transport = {
     port: 587,
     requireTLS: true,
     auth: {
-    user: USER_VALUE,
-    pass: PASS_VALUE
+    user: 'pcmax1989@gmail.com', 
+    pass: 's0712007075p'
   }
 }
 
