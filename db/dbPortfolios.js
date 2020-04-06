@@ -1,7 +1,7 @@
 let portfolios =  [
     {
         id: 1,
-        link_name:"project1",
+        link_name:"",
         name:"Task Tracker and Leave Management Web Application",
         work_type:"UI/UX & Front-End Development",
         thumb_image:"task-tracker/thumb.jpg",
@@ -144,7 +144,7 @@ let portfolios =  [
     },
     {
         id: 2,
-        link_name:"project2",
+        link_name:"",
         name:"MyDocs Web Application",
         work_type:"UI/UX & Front-End Development",
         thumb_image:"mydoc/thumb.jpg",
@@ -195,7 +195,7 @@ let portfolios =  [
     },
     {
         id: 3,
-        link_name:"project3",
+        link_name:"",
         name:"Media Firm Landing Page and Web",
         work_type:"UI/UX & Front-End Development",
         thumb_image:"media/thumb.jpg",
@@ -217,12 +217,40 @@ let portfolios =  [
             {
                 id: 4,
                 name: "media/Web/home-new.png"
+            },
+            {
+                id: 5,
+                name: "media/Web/3cat.png"
+            },
+            {
+                id: 6,
+                name: "media/Web/home4.png"
+            },
+            {
+                id: 7,
+                name: "media/Web/item5.png"
+            },
+            {
+                id: 8,
+                name: "media/Web/about6.png"
+            },
+            {
+                id: 9,
+                name: "media/Web/contact7.png"
+            },
+            {
+                id: 10,
+                name: "media/Web/category8.png"
+            },
+            {
+                id: 11,
+                name: "media/Web/Item9.png"
             }
         ]
     },
     {
         id: 4,
-        link_name:"project4",
+        link_name:"",
         name:"NGO web Site",
         work_type:"UI/UX & Front-End Development",
         thumb_image:"ngo/thumb.jpg",
@@ -270,7 +298,176 @@ let portfolios =  [
                 name: "ngo/10mobile.png"
             }
         ]
-    }
+    },
+    {
+        id: 5,
+        link_name:"",
+        name:"Spare Parts Web Application",
+        work_type:"UI/UX & Front-End Development",
+        thumb_image:"spare-parts/thumb.jpg",
+        description:"Lorem ipsum lorem ipsum hello world",
+        technologies:['Angular','Responsive Design','JavaScript','BootStrap'],
+        ui_images:[
+            {
+                id: 1,
+                name: "spare-parts/desktop/1home.png"
+            },
+            {
+                id: 2,
+                name: "spare-parts/desktop/2home2.png"
+            }, 
+            {
+                id: 3,
+                name: "spare-parts/desktop/3login.png"
+            }, 
+            {
+                id: 4,
+                name: "spare-parts/desktop/4register.png"
+            }, 
+            {
+                id: 5,
+                name: "spare-parts/desktop/5create-order.png"
+            }, 
+            {
+                id: 6,
+                name: "spare-parts/desktop/6create-order2.png"
+            }, 
+            {
+                id: 7,
+                name: "spare-parts/desktop/7map.png"
+            },
+            {
+                id: 8,
+                name: "spare-parts/desktop/8myorders.png"
+            },
+            {
+                id: 9,
+                name: "spare-parts/desktop/9myorders2.png"
+            },
+            {
+                id: 10,
+                name: "spare-parts/desktop/10 order-success.png"
+            },
+            {
+                id: 11,
+                name: "spare-parts/Tab/1home.png"
+            },
+            {
+                id: 12,
+                name: "spare-parts/Tab/2home.png"
+            },
+            {
+                id: 13,
+                name: "spare-parts/Tab/3login.PNG"
+            },
+            {
+                id: 14,
+                name: "spare-parts/Tab/4register.png"
+            },
+            {
+                id: 15,
+                name: "spare-parts/Tab/5.png"
+            },
+            {
+                id: 16,
+                name: "spare-parts/Tab/6.png"
+            },
+            {
+                id: 17,
+                name: "spare-parts/Tab/7.png"
+            },
+            {
+                id: 18,
+                name: "spare-parts/Tab/8.png"
+            },
+            {
+                id: 19,
+                name: "spare-parts/Tab/9.png"
+            },
+            {
+                id: 20,
+                name: "spare-parts/Tab/10.png"
+            },
+            {
+                id: 21,
+                name: "spare-parts/Mobile/1home.png"
+            },
+            {
+                id: 22,
+                name: "spare-parts/Mobile/2login.png"
+            },
+            {
+                id: 23,
+                name: "spare-parts/Mobile/3register.png"
+            },
+            {
+                id: 24,
+                name: "spare-parts/Mobile/4mobile-menu.png"
+            },
+            {
+                id: 25,
+                name: "spare-parts/Mobile/5ceate-order.png"
+            },
+            {
+                id: 26,
+                name: "spare-parts/Mobile/6add-order.png"
+            },
+            {
+                id: 27,
+                name: "spare-parts/Mobile/7map.png"
+            },
+            {
+                id: 28,
+                name: "spare-parts/Mobile/8order-list.png"
+            },
+            {
+                id: 29,
+                name: "spare-parts/Mobile/9accor-order.png"
+            },
+            {
+                id: 30,
+                name: "spare-parts/Mobile/10success.png"
+            }
+        ]
+    },
+    {
+        id: 6,
+        link_name:"http://www.signatureliving.lk/",
+        name:"Signatureliving Web site",
+        work_type:"Front-End Development",
+        thumb_image:"signature/thumb.jpg",
+        description:"Lorem ipsum lorem ipsum hello world",
+        technologies:['HTML5','CSS3','Responsive Design','JavaScript','BootStrap','Jquery','Sass','Gulp','Google Map API'],
+        ui_images:[
+            {
+                id: 1,
+                name: "signature/home1.png"
+            },
+            {
+                id: 2,
+                name: "signature/about2.png"
+            }
+        ]
+    },
+    {
+        id: 7,
+        link_name:"http://cinnamonhousesrilanka.com/",
+        name:"Cinnamon House Hotel Web Site",
+        work_type:"Front-End Development",
+        thumb_image:"cinnamon/thumb.jpg",
+        description:"Lorem ipsum lorem ipsum hello world",
+        technologies:['HTML5','CSS3','Responsive Design','JavaScript','BootStrap','Jquery','Sass','Gulp','Google Map API'],
+        ui_images:[
+            {
+                id: 1,
+                name: "cinnamon/1Home-w.png"
+            },
+            {
+                id: 2,
+                name: "cinnamon/2About-Us.png"
+            }
+        ]
+    },
 ]
 
 module.exports = portfolios;
