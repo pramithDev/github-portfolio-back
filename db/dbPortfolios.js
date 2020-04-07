@@ -1,6 +1,21 @@
 let portfolios =  [
     {
-        id: 1,
+        id: 13,
+        link_name:"http://www.noihotels.com/hotel/noi-puma-lodge/default-en.html",
+        name:"NOI Hotels Web Sites",
+        work_type:"Front-End Development",
+        thumb_image:"noi/thumb.jpg",
+        description:"Lorem ipsum lorem ipsum hello world",
+        technologies:['HTML5','CSS3','Responsive Design','JavaScript','PHP','BootStrap','Jquery','Sass','Gulp'],
+        ui_images:[
+            {
+                id: 1,
+                name: "noi/1home.png"
+            }
+        ]
+    },
+    {
+        id: 12,
         link_name:"",
         name:"Task Tracker and Leave Management Web Application",
         work_type:"UI/UX & Front-End Development",
@@ -143,7 +158,7 @@ let portfolios =  [
         ]
     },
     {
-        id: 2,
+        id: 11,
         link_name:"",
         name:"MyDocs Web Application",
         work_type:"UI/UX & Front-End Development",
@@ -194,7 +209,7 @@ let portfolios =  [
         ]
     },
     {
-        id: 3,
+        id: 10,
         link_name:"",
         name:"Media Firm Landing Page and Web",
         work_type:"UI/UX & Front-End Development",
@@ -249,7 +264,7 @@ let portfolios =  [
         ]
     },
     {
-        id: 4,
+        id: 9,
         link_name:"",
         name:"NGO web Site",
         work_type:"UI/UX & Front-End Development",
@@ -300,7 +315,7 @@ let portfolios =  [
         ]
     },
     {
-        id: 5,
+        id: 8,
         link_name:"",
         name:"Spare Parts Web Application",
         work_type:"UI/UX & Front-End Development",
@@ -431,13 +446,13 @@ let portfolios =  [
         ]
     },
     {
-        id: 6,
+        id: 7,
         link_name:"http://www.signatureliving.lk/",
         name:"Signatureliving Web site",
         work_type:"Front-End Development",
         thumb_image:"signature/thumb.jpg",
         description:"Lorem ipsum lorem ipsum hello world",
-        technologies:['HTML5','CSS3','Responsive Design','JavaScript','BootStrap','Jquery','Sass','Gulp','Google Map API'],
+        technologies:['HTML5','CSS3','Responsive Design','JavaScript','PHP','BootStrap','Jquery','Sass','Gulp','Google Map API'],
         ui_images:[
             {
                 id: 1,
@@ -446,28 +461,375 @@ let portfolios =  [
             {
                 id: 2,
                 name: "signature/about2.png"
+            },
+            {
+                id: 3,
+                name: "signature/project3.png"
+            },
+            {
+                id: 4,
+                name: "signature/projectItem4.png"
+            },
+            {
+                id: 5,
+                name: "signature/leisure5.png"
+            },
+            {
+                id: 6,
+                name: "signature/leisureItem6.png"
+            },
+            {
+                id: 7,
+                name: "signature/news7.png"
+            },
+            {
+                id: 8,
+                name: "signature/contact8.png"
             }
         ]
     },
     {
-        id: 7,
+        id: 6,
         link_name:"http://cinnamonhousesrilanka.com/",
         name:"Cinnamon House Hotel Web Site",
         work_type:"Front-End Development",
         thumb_image:"cinnamon/thumb.jpg",
         description:"Lorem ipsum lorem ipsum hello world",
-        technologies:['HTML5','CSS3','Responsive Design','JavaScript','BootStrap','Jquery','Sass','Gulp','Google Map API'],
+        technologies:['HTML5','CSS3','Responsive Design','JavaScript','PHP','BootStrap','Jquery','Sass','Gulp','Google Map API'],
         ui_images:[
             {
                 id: 1,
-                name: "cinnamon/1Home-w.png"
+                name: "cinnamon/home1.png"
             },
             {
                 id: 2,
-                name: "cinnamon/2About-Us.png"
+                name: "cinnamon/about2.png"
+            },
+            {
+                id: 3,
+                name: "cinnamon/aminities3.png"
+            },
+            {
+                id: 4,
+                name: "cinnamon/gallery4.png"
+            },
+            {
+                id: 5,
+                name: "cinnamon/things5.png"
+            },
+            {
+                id: 6,
+                name: "cinnamon/contact7.png"
             }
         ]
     },
+    {
+        id: 5,
+        link_name:"http://travelorphic.com/",
+        name:"Website and CMS Portal for a Travel Company",
+        work_type:"Front-End Development",
+        thumb_image:"travelorphic/thumb.jpg",
+        description:"Lorem ipsum lorem ipsum hello world",
+        technologies:['HTML5','CSS3','PHP','Responsive Design','JavaScript','BootStrap','Jquery','Sass','Gulp','Google Map API'],
+        ui_images:[
+            {
+                id: 1,
+                name: "travelorphic/web/1home.png"
+            },
+            {
+                id: 2,
+                name: "travelorphic/web/2dest.png"
+            },
+            {
+                id: 3,
+                name: "travelorphic/web/3dest.png"
+            },
+            {
+                id: 4,
+                name: "travelorphic/web/4pack.png"
+            },
+            {
+                id: 5,
+                name: "travelorphic/web/5cat.png"
+            },
+            {
+                id: 6,
+                name: "travelorphic/web/6catpack.png"
+            },
+            {
+                id: 7,
+                name: "travelorphic/web/7catpack.png"
+            },
+            {
+                id: 8,
+                name: "travelorphic/web/8wedding.png"
+            },
+            {
+                id: 9,
+                name: "travelorphic/web/9mice.png"
+            },
+            {
+                id: 10,
+                name: "travelorphic/web/10contact.png"
+            },
+            {
+                id: 11,
+                name: "travelorphic/web/11about.png"
+            },
+            {
+                id: 12,
+                name: "travelorphic/web/12careers.png"
+            }
+        ]
+    },
+    {
+        id: 4,
+        link_name:"",
+        name:"Admin panel for a Travel Company",
+        work_type:"Front-End Development",
+        thumb_image:"travelorphic/thumb2.jpg",
+        description:"Lorem ipsum lorem ipsum hello world",
+        technologies:['HTML5','CSS3','PHP','Responsive Design','JavaScript','BootStrap','Jquery','Sass','Gulp','Google Map API'],
+        ui_images:[
+            {
+                id: 1,
+                name: "travelorphic/admin_panel/1aalogin.png"
+            },
+            {
+                id: 2,
+                name: "travelorphic/admin_panel/1auser.png"
+            },
+            {
+                id: 3,
+                name: "travelorphic/admin_panel/1home.png"
+            },
+            {
+                id: 4,
+                name: "travelorphic/admin_panel/1user-add.png"
+            },
+            {
+                id: 5,
+                name: "travelorphic/admin_panel/1user-edit.png"
+            },
+            {
+                id: 6,
+                name: "travelorphic/admin_panel/2home.png"
+            },
+            {
+                id: 7,
+                name: "travelorphic/admin_panel/3home.png"
+            },
+            {
+                id: 8,
+                name: "travelorphic/admin_panel/4destination.png"
+            },
+            {
+                id: 9,
+                name: "travelorphic/admin_panel/5destination.png"
+            },
+            {
+                id: 10,
+                name: "travelorphic/admin_panel/6destmap.png"
+            },
+            {
+                id: 11,
+                name: "travelorphic/admin_panel/8fact.png"
+            },
+            {
+                id: 12,
+                name: "travelorphic/admin_panel/9things.png"
+            },
+            {
+                id: 13,
+                name: "travelorphic/admin_panel/10travel.png"
+            },
+            {
+                id: 14,
+                name: "travelorphic/admin_panel/11packages.png"
+            },
+            {
+                id: 15,
+                name: "travelorphic/admin_panel/12home_package.png"
+            },
+            {
+                id: 16,
+                name: "travelorphic/admin_panel/13pack-map.png"
+            },
+            {
+                id: 17,
+                name: "travelorphic/admin_panel/14pack-info.png"
+            },
+            {
+                id: 18,
+                name: "travelorphic/admin_panel/15pack-tour.png"
+            },
+            {
+                id: 19,
+                name: "travelorphic/admin_panel/16pack-highlight.png"
+            },
+            {
+                id: 20,
+                name: "travelorphic/admin_panel/17pack-summary.png"
+            },
+            {
+                id: 21,
+                name: "travelorphic/admin_panel/18pack-itinery.png"
+            },
+            {
+                id: 22,
+                name: "travelorphic/admin_panel/19pack-include.png"
+            },
+            {
+                id: 23,
+                name: "travelorphic/admin_panel/20pack-exclude.png"
+            },
+            {
+                id: 24,
+                name: "travelorphic/admin_panel/21pack-category.png"
+            },
+            {
+                id: 25,
+                name: "travelorphic/admin_panel/22special-offer.png"
+            },
+            {
+                id: 26,
+                name: "travelorphic/admin_panel/23special-offer2.png"
+            },
+            {
+                id: 27,
+                name: "travelorphic/admin_panel/24mice.png"
+            },
+            {
+                id: 28,
+                name: "travelorphic/admin_panel/25mice2.png"
+            },
+            {
+                id: 29,
+                name: "travelorphic/admin_panel/26wedding.png"
+            },
+            {
+                id: 30,
+                name: "travelorphic/admin_panel/27wedding2.png"
+            },
+            {
+                id: 31,
+                name: "travelorphic/admin_panel/28hotels.png"
+            },
+            {
+                id: 32,
+                name: "travelorphic/admin_panel/29hotel-details.png"
+            },
+            {
+                id: 33,
+                name: "travelorphic/admin_panel/30hotel-gallery.png"
+            },
+            {
+                id: 34,
+                name: "travelorphic/admin_panel/31hotel-facilities.png"
+            },
+            {
+                id: 35,
+                name: "travelorphic/admin_panel/32hotel-price.png"
+            },
+            {
+                id: 36,
+                name: "travelorphic/admin_panel/33about.png"
+            },
+            {
+                id: 37,
+                name: "travelorphic/admin_panel/34about-diff.png"
+            },
+            {
+                id: 38,
+                name: "travelorphic/admin_panel/35about-team.png"
+            },
+            {
+                id: 39,
+                name: "travelorphic/admin_panel/36careers.png"
+            },
+            {
+                id: 40,
+                name: "travelorphic/admin_panel/37vacan.png"
+            },
+            {
+                id: 41,
+                name: "travelorphic/admin_panel/38vacan2.png"
+            },
+            {
+                id: 42,
+                name: "travelorphic/admin_panel/39contact.png"
+            },
+            {
+                id: 43,
+                name: "travelorphic/admin_panel/40contact2.png"
+            }
+        ]
+    },
+    {
+        id: 3,
+        link_name:"",
+        name:"UNUAN Company web Site",
+        work_type:"Front-End Development",
+        thumb_image:"unuan/thumb.jpg",
+        description:"Lorem ipsum lorem ipsum hello world",
+        technologies:['HTML5','CSS3','Responsive Design','JavaScript','PHP','BootStrap','Jquery','Sass','Gulp'],
+        ui_images:[
+            {
+                id: 1,
+                name: "unuan/1home.png"
+            },
+            {
+                id: 2,
+                name: "unuan/2about.png"
+            },
+            {
+                id: 3,
+                name: "unuan/3contact.png"
+            },
+            {
+                id: 4,
+                name: "unuan/4architect.png"
+            },
+            {
+                id: 5,
+                name: "unuan/5home.png"
+            },
+            {
+                id: 6,
+                name: "unuan/6menu.png"
+            }
+        ]
+    },
+    {
+        id: 2,
+        link_name:"http://fhix45.com/",
+        name:"Fhix45 Website",
+        work_type:"Front-End Development",
+        thumb_image:"fhix/thumb.jpg",
+        description:"Lorem ipsum lorem ipsum hello world",
+        technologies:['HTML5','CSS3','Responsive Design','JavaScript','PHP','BootStrap','Jquery','Sass','Gulp'],
+        ui_images:[
+            {
+                id: 1,
+                name: "fhix/1home.png"
+            }
+        ]
+    },
+    {
+        id: 1,
+        link_name:"http://www.noihotels.com/hotel/noi-puma-lodge/default-en.html",
+        name:"NOI Hotels Web Sites",
+        work_type:"Front-End Development",
+        thumb_image:"noi/thumb.jpg",
+        description:"Lorem ipsum lorem ipsum hello world",
+        technologies:['HTML5','CSS3','Responsive Design','JavaScript','PHP','BootStrap','Jquery','Sass','Gulp'],
+        ui_images:[
+            {
+                id: 1,
+                name: "noi/1home.png"
+            }
+        ]
+    }
 ]
 
 module.exports = portfolios;
