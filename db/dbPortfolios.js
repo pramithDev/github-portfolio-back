@@ -1,16 +1,16 @@
 let portfolios =  [
     {
         id: 13,
-        link_name:"http://www.noihotels.com/hotel/noi-puma-lodge/default-en.html",
-        name:"NOI Hotels Web Sites",
-        work_type:"Front-End Development",
-        thumb_image:"noi/thumb.jpg",
+        link_name:"https://heuristic-allen-e2b2ee.netlify.com/",
+        name:"TO-DO APP",
+        work_type:"UI/UX & Front-End Development",
+        thumb_image:"todo/thumb.jpg",
         description:"Lorem ipsum lorem ipsum hello world",
-        technologies:['HTML5','CSS3','Responsive Design','JavaScript','PHP','BootStrap','Jquery','Sass','Gulp'],
+        technologies:['React Js','Reactstrap','Responsive Design','JavaScript'],
         ui_images:[
             {
                 id: 1,
-                name: "noi/1home.png"
+                name: "todo/home.png"
             }
         ]
     },
