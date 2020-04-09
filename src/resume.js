@@ -1,7 +1,9 @@
 const express = require("express");
+const helmet = require('helmet');
 const serverless = require("serverless-http");
 const cors = require("cors");
 const app = express();
+app.use(helmet());
 const router = express.Router();
 let resume = require("../db/dbResume");
 
